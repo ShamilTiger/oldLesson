@@ -7,9 +7,9 @@ public class ChildrenLibraryHall {
   /* private int size;*/
 
 
-   public ChildrenLibraryHall(String nameHall, int size) {
+   public ChildrenLibraryHall(String nameHall, int quantity) {
       this.nameHall = nameHall;
-      childrenBooks = new ChildrenBook[size];
+      childrenBooks = new ChildrenBook[quantity];
    }
 
    public int getBooksQuantity() {
