@@ -39,6 +39,11 @@ public class ChildrenLibraryHall {
       }
    }
 
+   public int getAllQuantity(ChildrenLibraryHall nameHall){
+      System.out.print("Всего книг в зале: ");
+      return getBooksQuantity();
+   }
+
    public String getNameHall() {
       return nameHall;
    }

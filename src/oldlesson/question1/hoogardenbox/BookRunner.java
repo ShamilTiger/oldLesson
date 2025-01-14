@@ -18,6 +18,7 @@ public class BookRunner {
         System.out.println(hall1.getSize());
         System.out.println(hall1.getBooksQuantity());
         hall1.printAllBooksName();
+        System.out.println(hall1.getAllQuantity(hall1));
 
 
 
