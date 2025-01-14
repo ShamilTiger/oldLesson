@@ -32,11 +32,23 @@ public class ChildrenLibraryHall {
    }
 
    public void printAllBooksName() {
+      System.out.println("Название книг в зале: ");
       for (int i = 0; i <childrenBooks.length ; i++) {
          if (childrenBooks[i] != null) {
             System.out.println(childrenBooks[i].getName());
          }
       }
+   }
+//   public double getAllBooksPrice(ChildrenLibraryHall nameHall){
+//      double allPrice = 0;
+//      double price = 0;
+//      System.out.println("Стоимость всех книг в зале равна: ");
+//      for (int i = 0; i <childrenBooks.length ; i++){
+//         if(childrenBooks[i] != null){
+//            childrenBooks[i].getPrice() = price;
+//         }
+//         allPrice =
+//      }
    }
 
    public int getAllQuantity(ChildrenLibraryHall nameHall){
