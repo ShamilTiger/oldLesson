@@ -2,9 +2,9 @@ package oldlesson.question1.hoogardenbox;
 
 public class BookRunner {
     public static void main(String[] args) {
-        ChildrenBook book1 = new ChildrenBook("Борис Пастернак", "Две книги", 1000.0, 1927, 2);
-        ChildrenBook book44 = new ChildrenBook("Борис Пастернак", "Нет", 1000.0, 1927, 2);
-        ChildrenBook book52 = new ChildrenBook("Борис Пастернак", "Писят два", 1000.0, 1927, 2);
+        ChildrenBook book1 = new ChildrenBook("Борис Пастернак", "Две книги", 100.0, 1927, 2);
+        ChildrenBook book44 = new ChildrenBook("Борис Пастернак", "Нет", 1060.0, 1927, 2);
+        ChildrenBook book52 = new ChildrenBook("Борис Пастернак", "Писят два", 1990.0, 1927, 2);
         Book book2 = new Book();
         Book book3 = new Book("Пушкин нахуй", 2015);
 
@@ -18,6 +18,15 @@ public class BookRunner {
         System.out.println(hall1.getSize());
         System.out.println(hall1.getBooksQuantity());
         hall1.printAllBooksName();
+//        System.out.println(hall1.getAllQuantity(hall1));
+//        hall1.printAllBooksName();
+        hall1.printAllQuantity();
+        System.out.println(hall1.getAllBooksPrice());
+//        System.out.println(hall1.getBookByNumber(2));
+//        hall1.changeBookByNumber(2, book52 );
+//        System.out.println(hall1.getBookByNumber(2));
+        System.out.println(hall1.getBestBook());
+
 
 
 
